@@ -22,7 +22,7 @@ def variable_def(variable):
     global log_datetime
     variable_dict = {
         'log_file': 'ipam_' + log_datetime + '.log',
-        'ipam_host': 'ipam.bamtech.co',
+        'ipam_host': 'xxxx',
         'ipam_api_name': 'netadmin'
     }
 
