@@ -4,7 +4,7 @@ os.system('clear')
 
 print ("Creating Configuration:\n")
 
-print ("OSW1J03.ewr1\n")
+print ("XXXXX\n")
 
 count=1
 
@@ -15,7 +15,7 @@ for i in range (25,49):
     print ('\n')
     count+=1
 
-print ("OSW1J01.ewr1\n")
+print ("XXXXX\n")
 
 count2=25
 

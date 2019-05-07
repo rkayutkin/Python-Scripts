@@ -10,7 +10,7 @@ print ("######Configuration for BLEAF1######:\n")
 
 for n in range (321,325):
     print ('int po ' + str(n))
-    print ('description LB' + str(count) + '.O.AMS1')
+    print ('description LB' + str(count) + 'XXXX')
     print ('switchport')
     print ('switchport mode trunk')
     print ('no lacp suspend-individual')
@@ -25,7 +25,7 @@ count3=321
 
 for i in range (21,25):
     print ('int eth1/' + str(i))
-    print ('description LB' + str(count2) + '.O.AMS1-SFP-1')
+    print ('description LB' + str(count2) + 'XXXX')
     print ('switchport')
     print ('switchport mode trunk')
     print ('spanning-tree port type edge')
@@ -41,7 +41,7 @@ count4=1
 
 for j in range (321,325):
     print ('int po ' + str(j))
-    print ('description LB' + str(count4) + '.O.AMS1')
+    print ('description LB' + str(count4) + 'XXXX')
     print ('switchport')
     print ('switchport mode trunk')
     print ('spanning-tree port type edge')
@@ -56,7 +56,7 @@ count6=321
 
 for k in range (21,25):
     print ('int eth1/' + str(k))
-    print ('description LB' + str(count5) + '.O.AMS1-SFP-2')
+    print ('description LB' + str(count5) + 'XXXX')
     print ('switchport')
     print ('switchport mode trunk')
     print ('spanning-tree port type edge')
@@ -72,7 +72,7 @@ count7=1
 
 for i in range (21,25):
     print ('int Eth0/' + str(i))
-    print ('description LB' + str(count7) + '.O.AMS1-SFP-3/1')
+    print ('description LB' + str(count7) + 'XXXX')
     print ('switchport')
     print ('switchport mode access')
     print ('switchport access vlan 290')
@@ -87,7 +87,7 @@ count8=1
 
 for i in range (21,25):
     print ('int Eth0/' + str(i))
-    print ('description LB' + str(count8) + '.O.AMS1-SFP-3/2')
+    print ('description LB' + str(count8) + 'XXXX')
     print ('switchport')
     print ('switchport mode access')
     print ('switchport access vlan 291')
