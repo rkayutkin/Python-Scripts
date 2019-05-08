@@ -1,5 +1,5 @@
-external= open("MD3_EXTERNAL.txt", "r")
-internal= open("MD3_INTERNAL.txt", "r")
+external= open("EXTERNAL.txt", "r")
+internal= open("INTERNAL.txt", "r")
 
 print
 
